@@ -13,7 +13,7 @@ pipeline {
         sh '''
           set -eux
           python3 -V
-          python3 main.py   # change to your entry file
+          python3 pythonfile.py   # change to your entry file
         '''
       }
     }
